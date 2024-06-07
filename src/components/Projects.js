@@ -38,7 +38,7 @@ const ProjectCard = ({ project }) => (
       className="w-12 h-12 mb-4"
     />
     <a href={project.link} className="text-blue-500">
-      <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
+      <h3 className="text-lg font-semibold mb-2">test</h3>
     </a>
     <p className="text-sm mb-4">{project.description}</p>
   </div>
