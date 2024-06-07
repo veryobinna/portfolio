@@ -82,7 +82,7 @@ const Skills = () => {
                   <img
                     src={skill.src}
                     alt={`${skill.name} logo`}
-                    className="w-16 h-16 mb-2  hover-spin7"
+                    className="w-16 h-16 mb-2"
                   />
                   <span className="text-lg text-gray-700">{skill.name}</span>
                 </div>
