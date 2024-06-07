@@ -40,7 +40,6 @@ const ProjectCard = ({ project }) => (
     <a href={project.link} className="text-blue-500">
       <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
     </a>
-
     <p className="text-sm mb-4">{project.description}</p>
   </div>
 );
