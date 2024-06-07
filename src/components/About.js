@@ -35,7 +35,7 @@ const About = () => {
             </h1>
           </header>
           <div>
-            <div className=" text-lg text-left leading-7">
+            <div className=" text-wrap text-lg text-left leading-7">
               <p className="text-gray-500 mb-4">
                 I am Obinna Okwuolisa and I am passionate about solving
                 problems. Over the years, I have been privileged to engage in
