@@ -29,7 +29,6 @@ import Django from "../assets/images/logos/django.jpg";
 const logos = {
   Frontend: [
     { name: "JavaScript", src: js },
-
     { name: "ReactJS", src: reactLogo },
     { name: "NextJS", src: nextLogo },
     { name: "Typescript", src: typescriptLogo },
@@ -40,18 +39,17 @@ const logos = {
     { name: "Redux", src: reduxLogo },
     { name: "Tailwind", src: tailwindLogo },
   ],
-  DataBase: [
-    { name: "Postgres", src: postgres },
-    { name: "MongoDB", src: mongo },
-    { name: "MySQL", src: mysql }]
-    ,
-
   Backend: [
     { name: "NodeJS", src: NodeJS },
     { name: "Python", src: Python },
     { name: "Django", src: Django },
   ],
-  BigData:[
+  DataBase: [
+    { name: "Postgres", src: postgres },
+    { name: "MongoDB", src: mongo },
+    { name: "MySQL", src: mysql },
+  ],
+  BigData: [
     { name: "Hadoop", src: hadoop },
     { name: "Apache Sparks", src: sparks },
     { name: "Apache Kafka", src: kafka },
@@ -80,11 +78,11 @@ const Skills = () => {
             <h3 className="text-2xl font-semibold mb-4">{category}</h3>
             <div className="flex flex-wrap justify-center space-x-4">
               {skillsList.map((skill) => (
-                <div key={skill.name} className="flex flex-col items-center">
+                <div key={skill.name} className="flex flex-col items-center skill-logo">
                   <img
                     src={skill.src}
                     alt={`${skill.name} logo`}
-                    className="w-16 h-16 mb-2"
+                    className="w-16 h-16 mb-2  hover-spin7"
                   />
                   <span className="text-lg text-gray-700">{skill.name}</span>
                 </div>

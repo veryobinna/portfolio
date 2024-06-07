@@ -37,7 +37,12 @@ const ProjectCard = ({ project }) => (
       alt={`${project.name} logo`}
       className="w-12 h-12 mb-4"
     />
-    <a href={project.link} className="text-blue-500">
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noreferrer"
+      className="text-blue-500 hover:text-blue-400"
+    >
       <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
     </a>
 
