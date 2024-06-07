@@ -22,7 +22,7 @@ const projects = [
     logo: sparks,
   },
   {
-    name: "Water and Air poluttion analysis",
+    name: "Water and Air pollution analysis",
     description:
       "The operating system that powers our Planetaria space shuttles.",
     link: "https://github.com/veryobinna/case-studies-project",
@@ -37,21 +37,22 @@ const ProjectCard = ({ project }) => (
       alt={`${project.name} logo`}
       className="w-12 h-12 mb-4"
     />
-    <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
-    <p className="text-sm mb-4">{project.description}</p>
-    <a href={`https://${project.link}`} className="text-blue-500">
-      {project.link}
+    <a href={project.link} className="text-blue-500">
+      <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
     </a>
+
+    <p className="text-sm mb-4">{project.description}</p>
   </div>
 );
 
 const Project = () => (
-  <section id="projects" className="min-h-screen bg-gray-50 p-8 max-w-6xl mx-auto">
+  <section
+    id="projects"
+    className="min-h-screen bg-gray-50 p-8 max-w-6xl mx-auto"
+  >
     <header className="text-center mb-12">
       <h1 className="text-4xl font-bold">Projects</h1>
-      <p className="mt-4 text-lg">
-        Here are some of my public projects
-      </p>
+      <p className="mt-4 text-lg">Here are some of my public projects</p>
     </header>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {projects.map((project) => (
