@@ -43,8 +43,8 @@ const About = () => {
               </p>
               <p className="text-gray-500 mb-4">
                 I hold a Bachelor's in Computer Science from Nnamdi Azikiwe
-                University and a post-graduate in Big Data from Conestoga
-                college.
+                University, Awka, Nigeria and a post-graduate in Big Data from Conestoga
+                College, Kitchener, Ontario, Canada.
               </p>
               <p className="text-gray-500 mb-4">
                 With over seven years of experience in software engineering, I
