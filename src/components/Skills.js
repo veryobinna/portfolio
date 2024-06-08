@@ -9,9 +9,10 @@ import htmlLogo from "../assets/images/logos/html.png";
 import jqueryLogo from "../assets/images/logos/jquery.png";
 import reduxLogo from "../assets/images/logos/redux.png";
 import tailwindLogo from "../assets/images/logos/tailwind.png";
-import NodeJS from "../assets/images/logos/node.png";
-import Python from "../assets/images/logos/python.png";
+import nodeJS from "../assets/images/logos/node.png";
+import python from "../assets/images/logos/python.png";
 import mysql from "../assets/images/logos/mysql.png";
+import mssql from "../assets/images/logos/sql-server.png";
 import postgres from "../assets/images/logos/postgres.png";
 import mongo from "../assets/images/logos/mongo.png";
 import hadoop from "../assets/images/logos/hadoop.jpg";
@@ -24,7 +25,8 @@ import ansibleLogo from "../assets/images/logos/ansible.png";
 import gitLogo from "../assets/images/logos/git.png";
 import linuxLogo from "../assets/images/logos/linux.png";
 import gcpLogo from "../assets/images/logos/gcp.png";
-import Django from "../assets/images/logos/django.jpg";
+import django from "../assets/images/logos/django.jpg";
+import flask from "../assets/images/logos/flask.png";
 
 const logos = {
   Frontend: [
@@ -40,14 +42,16 @@ const logos = {
     { name: "Tailwind", src: tailwindLogo },
   ],
   Backend: [
-    { name: "NodeJS", src: NodeJS },
-    { name: "Python", src: Python },
-    { name: "Django", src: Django },
+    { name: "NodeJS", src: nodeJS },
+    { name: "Python", src: python },
+    { name: "Django", src: django },
+    { name: "Flask", src: flask },
   ],
   DataBase: [
     { name: "Postgres", src: postgres },
     { name: "MongoDB", src: mongo },
     { name: "MySQL", src: mysql },
+    { name: "MS SQL Server", src: mssql },
   ],
   BigData: [
     { name: "Hadoop", src: hadoop },
@@ -71,7 +75,6 @@ const Skills = () => {
       id="skills"
       className="bg-gray-50 p-8 rounded-lg shadow-md max-w-6xl mx-auto"
     >
-      <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
       <div className="space-y-8">
         {Object.entries(logos).map(([category, skillsList]) => (
           <div key={category} className="border-b-2 pb-4">

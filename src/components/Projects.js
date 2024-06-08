@@ -56,8 +56,7 @@ const Project = () => (
     className="min-h-screen bg-gray-50 p-8 max-w-6xl mx-auto"
   >
     <header className="text-center mb-12">
-      <h1 className="text-4xl font-bold">Projects</h1>
-      <p className="mt-4 text-lg">Here are some of my public projects</p>
+      <p className="mt-4 text-2xl">Here are some of my public projects</p>
     </header>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {projects.map((project) => (
