@@ -8,7 +8,7 @@ const NotFound = () => {
     >
       
       <h1 className=" text-4xl font-semibold roll404">404!</h1>
-      <div className="text-xl">You are quiet an explorer. You've found the 404 page.</div>
+      <div className="text-xl">You are quite an explorer. You've found the 404 page.</div>
     </section>
   );
 };

@@ -11,7 +11,7 @@ const projects = [
   },
   {
     name: "Document manager",
-    description: "Organise personal documents",
+    description: "A note taking app.",
     link: "https://github.com/veryobinna/doc-mgt",
     logo: reactLogo,
   },
@@ -24,7 +24,7 @@ const projects = [
   {
     name: "Water and Air pollution analysis",
     description:
-      "The operating system that powers our Planetaria space shuttles.",
+      "Analysis of contaminants in water and air for specific regions.",
     link: "https://github.com/veryobinna/case-studies-project",
     logo: sparks,
   },
