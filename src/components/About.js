@@ -15,7 +15,7 @@ const socialLinks = [
     alt: "LinkedIn logo",
   },
   {
-    href: "https://www.chess.com/obinnaprime",
+    href: "https://www.chess.com/member/obinnaprime",
     src: ChessLogo,
     alt: "Chess logo",
   },
